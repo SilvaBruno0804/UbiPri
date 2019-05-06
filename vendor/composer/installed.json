@@ -1,0 +1,349 @@
+[
+    {
+        "name": "semantic/ui",
+        "version": "2.2.13",
+        "version_normalized": "2.2.13.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Semantic-Org/Semantic-UI.git",
+            "reference": "5550bca6afe30aa5ba4b1a5a853c91e358ab4a5d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Semantic-Org/Semantic-UI/zipball/5550bca6afe30aa5ba4b1a5a853c91e358ab4a5d",
+            "reference": "5550bca6afe30aa5ba4b1a5a853c91e358ab4a5d",
+            "shasum": ""
+        },
+        "time": "2017-08-07T16:13:46+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jack Lukic",
+                "email": "jacklukic@gmail.com",
+                "homepage": "http://www.jacklukic.com",
+                "role": "Creator"
+            }
+        ],
+        "description": "Semantic empowers designers and developers by creating a shared vocabulary for UI.",
+        "homepage": "http://www.semantic-ui.com",
+        "keywords": [
+            "css",
+            "framework",
+            "semantic",
+            "ui"
+        ]
+    },
+    {
+        "name": "components/jquery",
+        "version": "3.2.1",
+        "version_normalized": "3.2.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/components/jquery.git",
+            "reference": "e5534d4ab8e80c159553d507e358ed20a806d3bf"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/components/jquery/zipball/e5534d4ab8e80c159553d507e358ed20a806d3bf",
+            "reference": "e5534d4ab8e80c159553d507e358ed20a806d3bf",
+            "shasum": ""
+        },
+        "time": "2017-03-21T07:01:49+00:00",
+        "type": "component",
+        "extra": {
+            "component": {
+                "scripts": [
+                    "jquery.js"
+                ],
+                "files": [
+                    "jquery.min.js",
+                    "jquery.min.map",
+                    "jquery.slim.js",
+                    "jquery.slim.min.js",
+                    "jquery.slim.min.map"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "JS Foundation and other contributors"
+            }
+        ],
+        "description": "jQuery JavaScript Library",
+        "homepage": "http://jquery.com"
+    },
+    {
+        "name": "jquery-form/form",
+        "version": "v4.2.2",
+        "version_normalized": "4.2.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jquery-form/form.git",
+            "reference": "4beae57bc92402e2d03ca66b5ae2942d0c94c695"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jquery-form/form/zipball/4beae57bc92402e2d03ca66b5ae2942d0c94c695",
+            "reference": "4beae57bc92402e2d03ca66b5ae2942d0c94c695",
+            "shasum": ""
+        },
+        "require": {
+            "components/jquery": ">=1.7.2"
+        },
+        "time": "2017-08-09T20:56:53+00:00",
+        "type": "library",
+        "extra": {
+            "component": {
+                "scripts": [
+                    "src/jquery.form.js"
+                ],
+                "shim": {
+                    "deps": [
+                        "jquery"
+                    ]
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "(LGPL-2.1+ OR MIT)"
+        ],
+        "authors": [
+            {
+                "name": "Kevin Morris"
+            },
+            {
+                "name": "Mike Alsup"
+            }
+        ],
+        "description": "The jQuery Form Plugin allows you to easily and unobtrusively upgrade HTML forms to use AJAX.",
+        "homepage": "https://github.com/jquery-form/form",
+        "keywords": [
+            "ajax",
+            "form",
+            "html-form",
+            "jquery",
+            "jquery-form",
+            "jquery-plugin",
+            "json",
+            "json-form"
+        ]
+    },
+    {
+        "name": "components/jqueryui",
+        "version": "1.12.1",
+        "version_normalized": "1.12.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/components/jqueryui.git",
+            "reference": "44ecf3794cc56b65954cc19737234a3119d036cc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/components/jqueryui/zipball/44ecf3794cc56b65954cc19737234a3119d036cc",
+            "reference": "44ecf3794cc56b65954cc19737234a3119d036cc",
+            "shasum": ""
+        },
+        "require": {
+            "components/jquery": ">=1.6"
+        },
+        "time": "2016-09-16T05:47:55+00:00",
+        "type": "component",
+        "extra": {
+            "component": {
+                "name": "jquery-ui",
+                "scripts": [
+                    "jquery-ui.js"
+                ],
+                "files": [
+                    "ui/**",
+                    "themes/**",
+                    "jquery-ui.min.js"
+                ],
+                "shim": {
+                    "deps": [
+                        "jquery"
+                    ],
+                    "exports": "jQuery"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "jQuery UI Team",
+                "homepage": "http://jqueryui.com/about"
+            },
+            {
+                "name": "Joern Zaefferer",
+                "email": "joern.zaefferer@gmail.com",
+                "homepage": "http://bassistance.de"
+            },
+            {
+                "name": "Scott Gonzalez",
+                "email": "scott.gonzalez@gmail.com",
+                "homepage": "http://scottgonzalez.com"
+            },
+            {
+                "name": "Kris Borchers",
+                "email": "kris.borchers@gmail.com",
+                "homepage": "http://krisborchers.com"
+            },
+            {
+                "name": "Mike Sherov",
+                "email": "mike.sherov@gmail.com",
+                "homepage": "http://mike.sherov.com"
+            },
+            {
+                "name": "TJ VanToll",
+                "email": "tj.vantoll@gmail.com",
+                "homepage": "http://tjvantoll.com"
+            },
+            {
+                "name": "Corey Frang",
+                "email": "gnarf37@gmail.com",
+                "homepage": "http://gnarf.net"
+            },
+            {
+                "name": "Felix Nagel",
+                "email": "info@felixnagel.com",
+                "homepage": "http://www.felixnagel.com"
+            }
+        ],
+        "description": "jQuery UI is a curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library. Whether you're building highly interactive web applications or you just need to add a date picker to a form control, jQuery UI is the perfect choice."
+    },
+    {
+        "name": "fortawesome/font-awesome",
+        "version": "v4.7.0",
+        "version_normalized": "4.7.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/FortAwesome/Font-Awesome.git",
+            "reference": "a8386aae19e200ddb0f6845b5feeee5eb7013687"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/a8386aae19e200ddb0f6845b5feeee5eb7013687",
+            "reference": "a8386aae19e200ddb0f6845b5feeee5eb7013687",
+            "shasum": ""
+        },
+        "require-dev": {
+            "jekyll": "1.0.2",
+            "lessc": "1.4.2"
+        },
+        "time": "2016-10-24T15:52:54+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "4.6.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "OFL-1.1",
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Dave Gandy",
+                "email": "dave@fontawesome.io",
+                "homepage": "http://twitter.com/davegandy",
+                "role": "Developer"
+            }
+        ],
+        "description": "The iconic font and CSS framework",
+        "homepage": "http://fontawesome.io/",
+        "keywords": [
+            "FontAwesome",
+            "awesome",
+            "bootstrap",
+            "font",
+            "icon"
+        ]
+    },
+    {
+        "name": "datatables/datatables",
+        "version": "1.10.16",
+        "version_normalized": "1.10.16.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/DataTables/DataTables.git",
+            "reference": "75a665f64f02982c0f4666b15a25c4670e5e6b18"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/DataTables/DataTables/zipball/75a665f64f02982c0f4666b15a25c4670e5e6b18",
+            "reference": "75a665f64f02982c0f4666b15a25c4670e5e6b18",
+            "shasum": ""
+        },
+        "time": "2017-08-31T13:52:17+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, based upon the foundations of progressive enhancement, which will add advanced interaction controls to any HTML table.",
+        "homepage": "http://www.datatables.net/"
+    },
+    {
+        "name": "igorescobar/jquery-mask-plugin",
+        "version": "v1.14.1",
+        "version_normalized": "1.14.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/kamihouse/jQuery-Mask-Plugin.git",
+            "reference": "678a7df1f0bb275ce53f365b91af99d86850978d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/kamihouse/jQuery-Mask-Plugin/zipball/678a7df1f0bb275ce53f365b91af99d86850978d",
+            "reference": "678a7df1f0bb275ce53f365b91af99d86850978d",
+            "shasum": ""
+        },
+        "time": "2016-04-27T16:16:55+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Igor Escobar",
+                "email": "blog@igorescobar.com",
+                "homepage": "https://about.me/igorescobar",
+                "role": "Developer"
+            },
+            {
+                "name": "Thiago Pereira Rosa",
+                "email": "thiagor@engineer.com",
+                "homepage": "http://coderi.com.br",
+                "role": "Contributor"
+            }
+        ],
+        "description": "A jQuery Plugin to make masks on form fields and html elements.",
+        "homepage": "https://github.com/igorescobar/jQuery-Mask-Plugin",
+        "keywords": [
+            "jquery",
+            "mask",
+            "plugin"
+        ]
+    }
+]
