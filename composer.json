@@ -1,0 +1,25 @@
+{
+    "name":"Ubipri",
+    "description":"Trabalho da M3 da disciplina de inter",
+    "license":"(LGPL-2 or GPL-3.0+)",
+    "keywords":["ubipri", "Trabalho"],
+    "authors":[{
+            "name": "Leandro Pastorino de Oliveira",
+            "email": "leandro911@univali.br"
+        }],
+    "require": {
+        "php":">=5.6",
+        "semantic/ui": "^2.2",
+        "components/jquery": "^3.2",
+        "jquery-form/form": "^4.2",
+        "components/jqueryui": "^1.12",
+        "fortawesome/font-awesome": "^4.7",
+        "datatables/datatables": "^1.10",
+        "igorescobar/jquery-mask-plugin": "^1.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\":"app/src/"
+        }
+    }
+}

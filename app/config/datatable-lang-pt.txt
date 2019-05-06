@@ -1,0 +1,18 @@
+{
+	"processing": "Processando…",
+	"lengthMenu": "Mostrando _MENU_ Linhas",
+	"zeroRecords": "Não foi encontrado nenhum resultado.",
+	"info": "Mostrando _START_ a _END_ de _TOTAL_ Linhas",
+	"infoEmpty": "Mostrando 0 a 0 de 0 Linhas",
+	"infoFiltered": "(Filtrando a partir de _MAX_  Linhas)",
+	"infoPostFix": "",
+	"search": "Pesquisar",
+	"emptyTable": "Sem dados disponíveis na tabela",
+	"url": "",
+	"paginate": {
+		"first":    "Primeiro",
+		"previous": "Anterior",
+		"next":     "Próximo",
+		"last":     "Ultimo"
+	}
+}
